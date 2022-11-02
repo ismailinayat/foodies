@@ -1,0 +1,48 @@
+@use 'pages/page1';
+
+
+@use 'components/bottombuttons';
+@use 'components/button';
+@use 'components/featured';
+@use 'components/followers';
+@use 'components/myrecipes';
+@use 'components/sidebar';
+@use 'components/topbar';
+@use 'components/userprofile';
+
+
+
+
+
+
+
+
+
+html,
+body {
+  
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  
+  height: 100vh;
+  overflow: hidden;
+  font-size: 62.5%;
+  padding: 2rem 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+

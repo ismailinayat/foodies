@@ -1,0 +1,74 @@
+.myrecipes {
+
+    padding: 1rem;
+    .container {
+
+        .title {
+
+            h3 {
+
+                color: black;
+                font-size: 1.6rem;
+            }
+        }
+
+        .myrecipes__nav {
+
+            display: flex;
+            gap: 1rem;
+            &--item {
+
+                h3 {
+
+                    font-size: 1.7rem;
+                    font-weight: 400;
+                    cursor: pointer;
+                }
+
+                .active {
+
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .myrecipes__filter {
+
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+            .filter--item {
+
+                p {
+
+                    font-size: 1.5rem;
+                    cursor: pointer;
+
+
+                }
+            }
+        }
+
+        .myrecipes__list--container {
+
+            .list {
+
+                &__item {
+
+                    li {
+
+                        font-size: 1.6rem;
+                        list-style:square;
+                        
+                        color: gray;
+
+                        &::-moz-list-bullet {
+
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

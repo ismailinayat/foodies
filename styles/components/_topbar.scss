@@ -1,0 +1,29 @@
+.topbar {
+
+    &__container {
+
+        display: flex;
+        gap: 2rem;
+        justify-content: space-around;
+        max-width: 70%;
+        margin: 0 auto;
+        .topbar__link {
+
+            cursor: pointer;
+
+            &:first-child {
+
+                p {
+
+                    font-weight: 700;
+                }
+            }
+            p {
+
+                font-size: 2rem;
+
+                
+            }
+        }
+    }
+}

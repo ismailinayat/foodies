@@ -1,0 +1,83 @@
+.page1 {
+
+    display: flex;
+    //align-items: center;
+    gap: 2rem;
+
+   
+    &__left {
+
+
+    }
+
+    &__mid {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        //background-color: aqua;
+        flex: 55%;
+    }
+
+    &__right {
+
+        //background-color: aliceblue;
+
+        border: 2rem solid rgb(243, 243, 243);
+        border-radius: 3rem;
+        flex: 45%;
+        
+        padding: 1rem;
+        height: calc(100vh - 4rem); 
+        overflow-y:scroll;
+
+        &--container {
+
+           
+            &--heading {
+    
+                h3 {
+    
+    
+                    font-size: 3rem;
+                    text-align: center;
+                    font-weight: 600;
+                }
+            }
+    
+            &--para {
+    
+    
+               
+                p {
+    
+                    font-size: 2rem;
+                    font-weight: 300;
+    
+                }
+            }
+        }
+
+    }
+
+    &__feature {
+
+        //background-color: aliceblue;
+    
+        .placeholder {
+
+            //height: 100%;
+            //background-color: aqua;
+        }
+
+        flex: 45%;
+        height: calc(100vh - 4rem); 
+        //overflow-y:scroll;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+}

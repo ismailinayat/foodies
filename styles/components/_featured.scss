@@ -1,0 +1,142 @@
+.featured {
+
+    border-radius: 3rem;
+    background-color: rgb(243, 243, 243);
+    padding: 0.2rem 1.5rem;
+    &__container {
+
+        display: flex;
+        flex-direction: column;
+        &--top {
+
+            
+
+            .featured__top--content {
+
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+                justify-content: center;
+
+                .feature {
+
+                    text-align: center;
+                    width: 45%;
+                    padding: 4rem 0;
+                    border-radius: 3rem;
+
+                    &:nth-child(1) {
+
+                        background-color: rgb(119, 209, 209);
+                    }
+                    &:nth-child(2) {
+                        background-color: rgb(183, 153, 202);
+                    }
+                    &:nth-child(3) {
+                        background-color: rgb(226, 148, 162);
+                    }
+                    &:nth-child(4) {
+                        background-color: rgb(134, 172, 134);
+                    }
+                    img {
+
+
+                    }
+
+                    p {
+
+                        font-size: 1.8rem;
+
+                    }
+                }
+            }
+        }
+
+        &--mid {
+
+            .featured__heading {
+
+                p {
+
+
+                }
+            }
+
+            .featured__mid--content {
+
+                display: flex;
+                justify-content: space-between;
+                gap: 1rem;
+                background-color: white;
+                border-radius: 3rem;
+                padding: 1rem;
+                .feature {
+
+                    text-align: center;
+                    padding: 1.5rem 0;
+                    font-size: 1.8rem;
+                    display: flex;
+                    justify-content: center;
+                    gap: 1rem;
+                    &:nth-child(1) {
+                        background-color: rgb(177, 177, 177);
+                        width: 60%;
+                        border-radius: 3rem;
+                    }
+
+                    &:nth-child(2) {
+                        width: 45%;
+                    }
+                    img {
+
+
+                    }
+
+                    p {
+
+
+                    }
+                }
+            }
+        }
+
+        &--bottom {
+
+            margin-bottom: 1.6rem;
+            .featured__heading {
+
+                p {
+
+                }
+            }
+
+            .featured__bottom--content {
+
+                .feature {
+
+                    background-color: rgb(219, 219, 37);
+                    border-radius: 3rem;
+                    padding: 2rem 0;
+                    text-align: center;
+                    img {
+
+                    }
+                    p {
+                        
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+    }
+    .featured__heading {
+
+        text-align: right;
+        p {
+
+            font-size: 1.4rem;
+            margin-right: 2rem;
+        }
+        margin-bottom: 0.5rem;
+    }
+}
